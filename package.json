@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-express-ajax-jquery-bootstrap-mysql",
+  "version": "1.0.0",
+  "description": "NodeJS/Express save data form to MySQL - Ajax JQuery + Bootstrap view",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Bootstrap",
+    "Ajax-JQuery",
+    "MySQL"
+  ],
+  "author": "JavaSampleApproach.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6"
+  }
+}
