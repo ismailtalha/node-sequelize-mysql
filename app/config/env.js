@@ -1,9 +1,9 @@
 const env = {
-  database: 'tododb',
-  username: 'root',
-  password: '',
-  host: 'localhost',
-  dialect: 'mysql',
+  database: 'test',
+  username: 'sa',
+  password: '123',
+  host: 'HP_LT1031',
+  dialect: 'mssql',
   pool: {
 	  max: 5,
 	  min: 0,

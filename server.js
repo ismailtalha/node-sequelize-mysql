@@ -16,9 +16,10 @@ db.sequelize.sync({force: true}).then(() => {
   console.log('Drop and Resync with { force: true }');
 }); 
 
-require('./app/routes/user.route.js')(app);
-require('./app/routes/employee.route.js')(app);
-require('./app/routes/company.route.js')(app);
+// require('./app/routes/user.route.js')(app);
+// require('./app/routes/employee.route.js')(app);
+require('./app/routes/base.route.js')(app,"../controllers/user.controller.js","user");
+require('./app/routes/base.route.js')(app,"../controllers/employee.controller.js","employee");
 
 var port = process.env.port || 8081
 
